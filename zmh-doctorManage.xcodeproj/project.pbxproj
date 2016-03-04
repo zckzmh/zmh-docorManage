@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE32F8971C89704C00902C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8961C89704C00902C85 /* AppDelegate.swift */; };
+		FE32F8991C89704C00902C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8981C89704C00902C85 /* ViewController.swift */; };
+		FE32F89C1C89704C00902C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32F89A1C89704C00902C85 /* Main.storyboard */; };
+		FE32F89E1C89704C00902C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE32F89D1C89704C00902C85 /* Assets.xcassets */; };
+		FE32F8A11C89704C00902C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32F89F1C89704C00902C85 /* LaunchScreen.storyboard */; };
+		FE32F8AC1C89704C00902C85 /* zmh_doctorManageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8AB1C89704C00902C85 /* zmh_doctorManageTests.swift */; };
+		FE32F8B71C89704C00902C85 /* zmh_doctorManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8B61C89704C00902C85 /* zmh_doctorManageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE32F8A81C89704C00902C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE32F88B1C89704C00902C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE32F8921C89704C00902C85;
+			remoteInfo = "zmh-doctorManage";
+		};
+		FE32F8B31C89704C00902C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE32F88B1C89704C00902C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE32F8921C89704C00902C85;
+			remoteInfo = "zmh-doctorManage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE32F8931C89704C00902C85 /* zmh-doctorManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zmh-doctorManage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32F8961C89704C00902C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE32F8981C89704C00902C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE32F89B1C89704C00902C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE32F89D1C89704C00902C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE32F8A01C89704C00902C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE32F8A21C89704C00902C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE32F8A71C89704C00902C85 /* zmh-doctorManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zmh-doctorManageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32F8AB1C89704C00902C85 /* zmh_doctorManageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zmh_doctorManageTests.swift; sourceTree = "<group>"; };
+		FE32F8AD1C89704C00902C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE32F8B21C89704C00902C85 /* zmh-doctorManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zmh-doctorManageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32F8B61C89704C00902C85 /* zmh_doctorManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zmh_doctorManageUITests.swift; sourceTree = "<group>"; };
+		FE32F8B81C89704C00902C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE32F8901C89704C00902C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32F8A41C89704C00902C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32F8AF1C89704C00902C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE32F88A1C89704C00902C85 = {
+			isa = PBXGroup;
+			children = (
+				FE32F8951C89704C00902C85 /* zmh-doctorManage */,
+				FE32F8AA1C89704C00902C85 /* zmh-doctorManageTests */,
+				FE32F8B51C89704C00902C85 /* zmh-doctorManageUITests */,
+				FE32F8941C89704C00902C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE32F8941C89704C00902C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8931C89704C00902C85 /* zmh-doctorManage.app */,
+				FE32F8A71C89704C00902C85 /* zmh-doctorManageTests.xctest */,
+				FE32F8B21C89704C00902C85 /* zmh-doctorManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE32F8951C89704C00902C85 /* zmh-doctorManage */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8961C89704C00902C85 /* AppDelegate.swift */,
+				FE32F8981C89704C00902C85 /* ViewController.swift */,
+				FE32F89A1C89704C00902C85 /* Main.storyboard */,
+				FE32F89D1C89704C00902C85 /* Assets.xcassets */,
+				FE32F89F1C89704C00902C85 /* LaunchScreen.storyboard */,
+				FE32F8A21C89704C00902C85 /* Info.plist */,
+			);
+			path = "zmh-doctorManage";
+			sourceTree = "<group>";
+		};
+		FE32F8AA1C89704C00902C85 /* zmh-doctorManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8AB1C89704C00902C85 /* zmh_doctorManageTests.swift */,
+				FE32F8AD1C89704C00902C85 /* Info.plist */,
+			);
+			path = "zmh-doctorManageTests";
+			sourceTree = "<group>";
+		};
+		FE32F8B51C89704C00902C85 /* zmh-doctorManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8B61C89704C00902C85 /* zmh_doctorManageUITests.swift */,
+				FE32F8B81C89704C00902C85 /* Info.plist */,
+			);
+			path = "zmh-doctorManageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE32F8921C89704C00902C85 /* zmh-doctorManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32F8BB1C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManage" */;
+			buildPhases = (
+				FE32F88F1C89704C00902C85 /* Sources */,
+				FE32F8901C89704C00902C85 /* Frameworks */,
+				FE32F8911C89704C00902C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zmh-doctorManage";
+			productName = "zmh-doctorManage";
+			productReference = FE32F8931C89704C00902C85 /* zmh-doctorManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE32F8A61C89704C00902C85 /* zmh-doctorManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32F8BE1C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManageTests" */;
+			buildPhases = (
+				FE32F8A31C89704C00902C85 /* Sources */,
+				FE32F8A41C89704C00902C85 /* Frameworks */,
+				FE32F8A51C89704C00902C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE32F8A91C89704C00902C85 /* PBXTargetDependency */,
+			);
+			name = "zmh-doctorManageTests";
+			productName = "zmh-doctorManageTests";
+			productReference = FE32F8A71C89704C00902C85 /* zmh-doctorManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE32F8B11C89704C00902C85 /* zmh-doctorManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32F8C11C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManageUITests" */;
+			buildPhases = (
+				FE32F8AE1C89704C00902C85 /* Sources */,
+				FE32F8AF1C89704C00902C85 /* Frameworks */,
+				FE32F8B01C89704C00902C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE32F8B41C89704C00902C85 /* PBXTargetDependency */,
+			);
+			name = "zmh-doctorManageUITests";
+			productName = "zmh-doctorManageUITests";
+			productReference = FE32F8B21C89704C00902C85 /* zmh-doctorManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE32F88B1C89704C00902C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = minghanzhao;
+				TargetAttributes = {
+					FE32F8921C89704C00902C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FE32F8A61C89704C00902C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FE32F8921C89704C00902C85;
+					};
+					FE32F8B11C89704C00902C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FE32F8921C89704C00902C85;
+					};
+				};
+			};
+			buildConfigurationList = FE32F88E1C89704C00902C85 /* Build configuration list for PBXProject "zmh-doctorManage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE32F88A1C89704C00902C85;
+			productRefGroup = FE32F8941C89704C00902C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE32F8921C89704C00902C85 /* zmh-doctorManage */,
+				FE32F8A61C89704C00902C85 /* zmh-doctorManageTests */,
+				FE32F8B11C89704C00902C85 /* zmh-doctorManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE32F8911C89704C00902C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32F8A11C89704C00902C85 /* LaunchScreen.storyboard in Resources */,
+				FE32F89E1C89704C00902C85 /* Assets.xcassets in Resources */,
+				FE32F89C1C89704C00902C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32F8A51C89704C00902C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32F8B01C89704C00902C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE32F88F1C89704C00902C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32F8991C89704C00902C85 /* ViewController.swift in Sources */,
+				FE32F8971C89704C00902C85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32F8A31C89704C00902C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32F8AC1C89704C00902C85 /* zmh_doctorManageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32F8AE1C89704C00902C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32F8B71C89704C00902C85 /* zmh_doctorManageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE32F8A91C89704C00902C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE32F8921C89704C00902C85 /* zmh-doctorManage */;
+			targetProxy = FE32F8A81C89704C00902C85 /* PBXContainerItemProxy */;
+		};
+		FE32F8B41C89704C00902C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE32F8921C89704C00902C85 /* zmh-doctorManage */;
+			targetProxy = FE32F8B31C89704C00902C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE32F89A1C89704C00902C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE32F89B1C89704C00902C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE32F89F1C89704C00902C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE32F8A01C89704C00902C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE32F8B91C89704C00902C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE32F8BA1C89704C00902C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE32F8BC1C89704C00902C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "zmh-doctorManage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmh.zmh-doctorManage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE32F8BD1C89704C00902C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "zmh-doctorManage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmh.zmh-doctorManage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE32F8BF1C89704C00902C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "zmh-doctorManageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmh.zmh-doctorManageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zmh-doctorManage.app/zmh-doctorManage";
+			};
+			name = Debug;
+		};
+		FE32F8C01C89704C00902C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "zmh-doctorManageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmh.zmh-doctorManageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zmh-doctorManage.app/zmh-doctorManage";
+			};
+			name = Release;
+		};
+		FE32F8C21C89704C00902C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "zmh-doctorManageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmh.zmh-doctorManageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "zmh-doctorManage";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE32F8C31C89704C00902C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "zmh-doctorManageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmh.zmh-doctorManageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "zmh-doctorManage";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE32F88E1C89704C00902C85 /* Build configuration list for PBXProject "zmh-doctorManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32F8B91C89704C00902C85 /* Debug */,
+				FE32F8BA1C89704C00902C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE32F8BB1C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32F8BC1C89704C00902C85 /* Debug */,
+				FE32F8BD1C89704C00902C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE32F8BE1C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32F8BF1C89704C00902C85 /* Debug */,
+				FE32F8C01C89704C00902C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE32F8C11C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32F8C21C89704C00902C85 /* Debug */,
+				FE32F8C31C89704C00902C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE32F88B1C89704C00902C85 /* Project object */;
+}
