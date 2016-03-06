@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE32F8971C89704C00902C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8961C89704C00902C85 /* AppDelegate.swift */; };
-		FE32F8991C89704C00902C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8981C89704C00902C85 /* ViewController.swift */; };
+		C37ADF59E22FA79F6A2BC20F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B027AFDE3059D5E335AEBD /* libPods.a */; };
 		FE32F89C1C89704C00902C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32F89A1C89704C00902C85 /* Main.storyboard */; };
 		FE32F89E1C89704C00902C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE32F89D1C89704C00902C85 /* Assets.xcassets */; };
 		FE32F8A11C89704C00902C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32F89F1C89704C00902C85 /* LaunchScreen.storyboard */; };
 		FE32F8AC1C89704C00902C85 /* zmh_doctorManageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8AB1C89704C00902C85 /* zmh_doctorManageTests.swift */; };
 		FE32F8B71C89704C00902C85 /* zmh_doctorManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8B61C89704C00902C85 /* zmh_doctorManageUITests.swift */; };
+		FE32F8DA1C89792700902C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8CA1C89792700902C85 /* AppDelegate.swift */; };
+		FE32F8DB1C89792700902C85 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8CD1C89792700902C85 /* MainViewController.swift */; };
+		FE32F8DD1C89794800902C85 /* DoctorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8DC1C89794800902C85 /* DoctorInfoViewController.swift */; };
+		FE32F8DF1C89795B00902C85 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8DE1C89795B00902C85 /* HomePageViewController.swift */; };
+		FE32F8E11C89798200902C85 /* IndividalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F8E01C89798200902C85 /* IndividalSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202B923190191C83BD458551 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		414B6CBAF8CEBE749B199C40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F3B027AFDE3059D5E335AEBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE32F8931C89704C00902C85 /* zmh-doctorManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zmh-doctorManage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE32F8961C89704C00902C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE32F8981C89704C00902C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE32F89B1C89704C00902C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE32F89D1C89704C00902C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE32F8A01C89704C00902C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		FE32F8B21C89704C00902C85 /* zmh-doctorManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zmh-doctorManageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE32F8B61C89704C00902C85 /* zmh_doctorManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zmh_doctorManageUITests.swift; sourceTree = "<group>"; };
 		FE32F8B81C89704C00902C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE32F8CA1C89792700902C85 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE32F8CD1C89792700902C85 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FE32F8DC1C89794800902C85 /* DoctorInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorInfoViewController.swift; sourceTree = "<group>"; };
+		FE32F8DE1C89795B00902C85 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		FE32F8E01C89798200902C85 /* IndividalSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividalSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37ADF59E22FA79F6A2BC20F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43C01F9A8E2419E5338DE1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B027AFDE3059D5E335AEBD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B615437942843B69DE3F4AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				414B6CBAF8CEBE749B199C40 /* Pods.debug.xcconfig */,
+				202B923190191C83BD458551 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FE32F88A1C89704C00902C85 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				FE32F8AA1C89704C00902C85 /* zmh-doctorManageTests */,
 				FE32F8B51C89704C00902C85 /* zmh-doctorManageUITests */,
 				FE32F8941C89704C00902C85 /* Products */,
+				7B615437942843B69DE3F4AD /* Pods */,
+				43C01F9A8E2419E5338DE1DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,7 @@
 		FE32F8951C89704C00902C85 /* zmh-doctorManage */ = {
 			isa = PBXGroup;
 			children = (
-				FE32F8961C89704C00902C85 /* AppDelegate.swift */,
-				FE32F8981C89704C00902C85 /* ViewController.swift */,
+				FE32F8C41C89780100902C85 /* class */,
 				FE32F89A1C89704C00902C85 /* Main.storyboard */,
 				FE32F89D1C89704C00902C85 /* Assets.xcassets */,
 				FE32F89F1C89704C00902C85 /* LaunchScreen.storyboard */,
@@ -125,6 +154,138 @@
 			path = "zmh-doctorManageUITests";
 			sourceTree = "<group>";
 		};
+		FE32F8C41C89780100902C85 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8C91C89792700902C85 /* AppDelegate */,
+				FE32F8CB1C89792700902C85 /* Main */,
+				FE32F8CE1C89792700902C85 /* MHDoctorInfo */,
+				FE32F8D21C89792700902C85 /* MHHomePage */,
+				FE32F8D61C89792700902C85 /* MHIndividalSetting */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		FE32F8C91C89792700902C85 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8CA1C89792700902C85 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FE32F8CB1C89792700902C85 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8CC1C89792700902C85 /* controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FE32F8CC1C89792700902C85 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8CD1C89792700902C85 /* MainViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FE32F8CE1C89792700902C85 /* MHDoctorInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8CF1C89792700902C85 /* controller */,
+				FE32F8D01C89792700902C85 /* model */,
+				FE32F8D11C89792700902C85 /* view */,
+			);
+			path = MHDoctorInfo;
+			sourceTree = "<group>";
+		};
+		FE32F8CF1C89792700902C85 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8DC1C89794800902C85 /* DoctorInfoViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FE32F8D01C89792700902C85 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FE32F8D11C89792700902C85 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FE32F8D21C89792700902C85 /* MHHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8D31C89792700902C85 /* controller */,
+				FE32F8D41C89792700902C85 /* model */,
+				FE32F8D51C89792700902C85 /* view */,
+			);
+			path = MHHomePage;
+			sourceTree = "<group>";
+		};
+		FE32F8D31C89792700902C85 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8DE1C89795B00902C85 /* HomePageViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FE32F8D41C89792700902C85 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FE32F8D51C89792700902C85 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FE32F8D61C89792700902C85 /* MHIndividalSetting */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8D71C89792700902C85 /* controller */,
+				FE32F8D81C89792700902C85 /* model */,
+				FE32F8D91C89792700902C85 /* view */,
+			);
+			path = MHIndividalSetting;
+			sourceTree = "<group>";
+		};
+		FE32F8D71C89792700902C85 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE32F8E01C89798200902C85 /* IndividalSettingViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FE32F8D81C89792700902C85 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FE32F8D91C89792700902C85 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE32F8BB1C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManage" */;
 			buildPhases = (
+				9562DEF31D4649D02FE962C6 /* Check Pods Manifest.lock */,
 				FE32F88F1C89704C00902C85 /* Sources */,
 				FE32F8901C89704C00902C85 /* Frameworks */,
 				FE32F8911C89704C00902C85 /* Resources */,
+				66EC8CA54D702D1E47A15869 /* Embed Pods Frameworks */,
+				458664A17AE5CFE650E78839 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +415,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458664A17AE5CFE650E78839 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66EC8CA54D702D1E47A15869 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9562DEF31D4649D02FE962C6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE32F88F1C89704C00902C85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE32F8991C89704C00902C85 /* ViewController.swift in Sources */,
-				FE32F8971C89704C00902C85 /* AppDelegate.swift in Sources */,
+				FE32F8DF1C89795B00902C85 /* HomePageViewController.swift in Sources */,
+				FE32F8DA1C89792700902C85 /* AppDelegate.swift in Sources */,
+				FE32F8DD1C89794800902C85 /* DoctorInfoViewController.swift in Sources */,
+				FE32F8E11C89798200902C85 /* IndividalSettingViewController.swift in Sources */,
+				FE32F8DB1C89792700902C85 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +612,7 @@
 		};
 		FE32F8BC1C89704C00902C85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414B6CBAF8CEBE749B199C40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "zmh-doctorManage/Info.plist";
@@ -408,6 +624,7 @@
 		};
 		FE32F8BD1C89704C00902C85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202B923190191C83BD458551 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "zmh-doctorManage/Info.plist";
@@ -484,6 +701,7 @@
 				FE32F8BD1C89704C00902C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE32F8BE1C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManageTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +710,7 @@
 				FE32F8C01C89704C00902C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE32F8C11C89704C00902C85 /* Build configuration list for PBXNativeTarget "zmh-doctorManageUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +719,7 @@
 				FE32F8C31C89704C00902C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
